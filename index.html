@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDOR Techniques</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">IDOR!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="jumbotron">
+            <h1 class="display-4">IDOR Explained by Me, Joshua! Again! HAHA!</h1>
+            <p class="lead">Learn about Insecure Direct Object Reference</p>
+            <hr class="my-4">
+            <p>IDOR is a type of access control vulnerability that involves me doing a lot of googling during a HackTheBox challenge and feeling dumb till I get the hang of it. It's sneaky and fun once you get it though.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Techniques But NEW NEW NEW NEW</h2>
+                <p>Common ways to exploit IDOR:</p>
+                <ul>
+                    <li>Parameter Manipulation</li>
+                    <li>Path Traversal</li>
+                    <li>Forced Browsing</li>
+                </ul>
+
+                <h3>Related CVEs</h3>
+                <ul>
+                    <li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000001" target="_blank">CVE-2018-1000001</a></li>
+                    <li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1234" target="_blank">CVE-2019-1234</a></li>
+                    <li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-5678" target="_blank">CVE-2020-5678</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h2>About Me</h2>
+                <p>I write about IDOR and only IDOR because I love IDOR.</p>
+                <a href="about.html" class="btn btn-primary">More About Me</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-5 p-4 text-center">
+        &copy; I really, really, like IDOR
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
